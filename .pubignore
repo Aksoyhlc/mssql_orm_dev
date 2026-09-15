@@ -1,4 +1,5 @@
 test/
+pubspec.lock
 **/.mssql_orm_staging/
 **/.mssql_orm_backup/
 **/.mssql_orm_journal.json

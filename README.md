@@ -46,10 +46,10 @@ the output directory are left alone.
 
 ```yaml
 dependencies:
-  mssql_native: ^0.0.1
-  mssql_orm: ^0.0.1
+  mssql_native: ^0.0.2
+  mssql_orm: ^0.0.2
 dev_dependencies:
-  mssql_orm_dev: ^0.0.1
+  mssql_orm_dev: ^0.0.2
 ```
 
 The generator is a separate package from the runtime for one reason: a `bin/`
