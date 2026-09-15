@@ -1,0 +1,38 @@
+name: mssql_orm_dev
+description: Generates AppDatabase, typed table queries and custom-SQL reports from a SQL Server schema, for mssql_orm.
+version: 0.0.1
+homepage: https://github.com/Aksoyhlc/mssql_orm_dev
+repository: https://github.com/Aksoyhlc/mssql_orm_dev
+issue_tracker: https://github.com/Aksoyhlc/mssql_orm_dev/issues
+
+executables:
+  generate: generate
+  check_schema: check_schema
+  verify_queries: verify_queries
+  snapshot: snapshot
+  init: init
+  doctor: doctor
+
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+
+# A dev_dependency of the applications that use it, so these never reach a
+# production build. That is the whole reason this package is separate from
+# mssql_orm: a bin/ script resolves against its package's dependencies,
+# never its dev_dependencies.
+dependencies:
+  args: ^2.7.0
+  collection: ^1.19.1
+  crypto: ^3.0.7
+  dart_style: ^3.1.13
+  glob: ^2.2.0
+  meta: ^1.15.0
+  mssql_native: '>=0.0.1 <0.1.0'
+  mssql_orm: '>=0.0.1 <0.1.0'
+  path: ^1.9.1
+  pub_semver: ^2.2.1
+  yaml: ^3.1.4
+
+dev_dependencies:
+  lints: ^6.1.0
+  test: ^1.32.0

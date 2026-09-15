@@ -1,0 +1,13 @@
+.dart_tool/
+build/
+pubspec.lock
+.DS_Store
+.mssql_orm_staging/
+.mssql_orm_backup/
+.mssql_orm_journal.json
+
+# Generator output from running the CLI inside this package itself.
+# `lib/db/` is the *consumer application's* default output path; a
+# scaffold left here would ship in the archive and would not compile,
+# because the generated files it imports belong to the app, not here.
+lib/db/

@@ -1,0 +1,13 @@
+# VM only.
+#
+# Most of the generator's tests need no server: schema models are built in
+# memory and the emitted source is compared against golden files. Two do.
+#
+#   MSSQL_NATIVE_LIVE=1 dart test --concurrency=1
+#
+# end_to_end_live_test.dart drives bin/generate.dart against a real schema and
+# then compiles and runs an application against what it produced. It is the
+# slowest file here and the one that has found the most: everything else checks
+# one layer, and the bugs worth catching lived between them.
+platforms:
+  - vm
