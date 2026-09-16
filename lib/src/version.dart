@@ -1,2 +1,2 @@
 /// The generator's version, stamped into the banner of every file it writes.
-const String generatorVersion = '0.0.2';
+const String generatorVersion = '0.1.1';
