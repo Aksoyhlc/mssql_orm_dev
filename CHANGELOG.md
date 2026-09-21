@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.2.0
+Require the aligned mssql_native and mssql_orm 0.2.0 releases.
+
 ## 0.1.1
 Require the aligned mssql_native and mssql_orm 0.1.1 releases.
 

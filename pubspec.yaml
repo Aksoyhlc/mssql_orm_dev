@@ -1,6 +1,6 @@
 name: mssql_orm_dev
 description: Generates AppDatabase, typed table queries and custom-SQL reports from a SQL Server schema, for mssql_orm.
-version: 0.1.1
+version: 0.2.0
 homepage: https://github.com/Aksoyhlc/mssql_orm_dev
 repository: https://github.com/Aksoyhlc/mssql_orm_dev
 issue_tracker: https://github.com/Aksoyhlc/mssql_orm_dev/issues
@@ -27,8 +27,8 @@ dependencies:
   dart_style: ^3.1.13
   glob: ^2.2.0
   meta: ^1.15.0
-  mssql_native: '>=0.1.1 <0.2.0'
-  mssql_orm: '>=0.1.1 <0.2.0'
+  mssql_native: '>=0.2.0 <0.3.0'
+  mssql_orm: '>=0.2.0 <0.3.0'
   path: ^1.9.1
   pub_semver: ^2.2.1
   yaml: ^3.1.4
